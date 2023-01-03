@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar Aluno</title>
+</head>
+
+<body>
+<div>
+	<h1>Cadastro de alunos</h1>
+	<form action="aluno.do" method="POST">
+		<label for="nome">Nome do aluno:</label><br>
+		<input id="nome" type="text" placeholder="Nome"><br>
+		<label for="matricula">Matrícula:</label><br>
+		<input id="matricula" type="text" placeholder="Matrícula"><br></br>
+		<input type="submit" value="Enviar"><br><br>
+	</form>
+	<a href="./index.html">Lista de alunos</a>
+</div>
+</body>
+</html>

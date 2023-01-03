@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lista de alunos</title>
+</head>
+
+<body>
+	<h1>Listar alunos</h1>
+	<form action="aluno.do" method="POST">
+		<input type="radio" id=busca_todos name="busca" value="todos">
+		<label for="busca_todos">Todos os alunos</label>
+		<input type="radio" id="busca_nome" name="busca" value="nome">
+		<label for="busca_nome">Nome do aluno</label>
+		<input type="text" name="nome_busca">
+	</form>
+</body>
+</html>

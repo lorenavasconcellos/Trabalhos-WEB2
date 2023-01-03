@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lista de alunos</title>
+</head>
+
+<body>
+	<h1>Listar alunos</h1>
+	<form action="aluno.do" method="POST">
+		<input type="radio" id=busca_todos name="busca" value="todos">
+		<label for="busca_todos">Todos os alunos</label><br>
+		<input type="radio" id="busca_nome" name="busca" value="nome">
+		<label for="busca_nome">Nome do aluno</label><br>
+		<input type="text" name="nome_busca"><br>
+		<input type="radio" id="busca_matricula" name="busca" value="matricula">
+		<label for="busca_matricula">Matrícula do aluno</label><br>
+		<input type="text" name="matricula_busca"><br>
+		<input type="submit" value="Buscar"><br>
+		
+		<a href="/cadastrar_aluno.html">Cadastre um novo aluno</a>
+	</form>
+</body>
+</html>

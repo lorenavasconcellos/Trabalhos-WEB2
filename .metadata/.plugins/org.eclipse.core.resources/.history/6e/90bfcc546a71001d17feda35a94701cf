@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar Aluno</title>
+</head>
+
+<body>
+	<form action="aluno.do" method="post">
+		<label for="nome">Nome do aluno:</label><br>
+		<input id="nome" type="name" placeholder="Nome">
+	</form>
+</body>
+</html>
